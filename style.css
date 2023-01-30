@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    font: normal 16pt arial;
+}
+#header {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto ;
+    display: block;
+    text-align: center;
+}
+section {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin: auto;
+    display: block;
+    border: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.151);
+}
+#container-hora {
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;  
+}
+.hora {
+    font-size: 1.3rem;
+}
+#container-img {
+    padding: 5px 0 30px;
+    margin: auto;
+}
+.img {
+    border-radius: 100%;
+    height: 15rem;
+    width: 15rem;
+    display: block;
+    margin: auto;
+}
+#footer {
+    text-align: center;
+}
